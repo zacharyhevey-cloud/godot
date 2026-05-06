@@ -257,6 +257,10 @@ Le timeout devrait plutôt être arrêté quand on appuie sur la touche «échap
 
 Lien vers l'issue: https://github.com/godotengine/godot/issues/119215
 
+J'ai prit la décision de l'intégrer à ma «pull request» de l'issue #3.
+
+Cet issue semblait être assez similaire à celle que je venais de faire, alors j'ai cherché certains mots-clés de complétion de code avec ```CTRL+F```, puis j'ai simplement fait une fonction pour vérifier si la souris survole l'info-bulle. Je l'ai ensuite intégré dans la fonction qui détermine s'il est nécessaire d'envoyer le signal d'affichage de l'info-bulle.
+
 # Tests
 
 Exécuter la commande de compilation avec le paramètre de tests activé.
